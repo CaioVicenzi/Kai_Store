@@ -29,6 +29,13 @@ public class Produto {
 		this.preco = produtoCadastrado.preco();
 	}
 	
+	public Produto(ProdutoDtoCadastro produtoCadastrado) {
+		this.nome = produtoCadastrado.nome();
+		this.categoria = produtoCadastrado.categoria();
+		this.descricao = produtoCadastrado.descricao();
+		this.preco = produtoCadastrado.preco();
+	}
+	
 	public Produto() {
 		super();
 	}
