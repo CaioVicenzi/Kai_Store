@@ -17,7 +17,9 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import br.com.kai_store.Api.Modelo.Produto.Produto;
 import br.com.kai_store.Api.Modelo.Produto.ProdutoDTO;
+import br.com.kai_store.Api.Modelo.Produto.ProdutoDtoAtualizacao;
 import br.com.kai_store.Api.Modelo.Produto.ProdutoDtoCadastro;
+import br.com.kai_store.Api.Repository.ProdutoRepository;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 

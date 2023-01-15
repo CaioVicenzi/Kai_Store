@@ -1,6 +1,5 @@
 package br.com.kai_store.Api.Modelo.Produto;
 
-import br.com.kai_store.Api.Controller.ProdutoDtoAtualizacao;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

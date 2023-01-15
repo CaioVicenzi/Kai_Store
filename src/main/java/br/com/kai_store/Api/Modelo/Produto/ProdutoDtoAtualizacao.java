@@ -1,4 +1,4 @@
-package br.com.kai_store.Api.Controller;
+package br.com.kai_store.Api.Modelo.Produto;
 
 import jakarta.validation.constraints.NotNull;
 
